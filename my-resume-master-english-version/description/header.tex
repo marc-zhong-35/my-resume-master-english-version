@@ -1,0 +1,18 @@
+\newcommand{\paint}[3]{
+    \begin{minipage}{#1}
+        \includegraphics[width=#1,height=#2]{#3}
+    \end{minipage}
+}
+\newcommand{\myheader}{
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}rr}
+  && \multirow{4}*{\paint{2.6cm}{3.2cm}{./image.jpg}}\\
+\textbf{\href{http://herechen.github.io}{\LARGE Zhong junyan}} & 17665458796$\,${\color{labelgrey}(phone)} &\\
+ Guangzhou,Guangdong province$\,${\color{labelgrey}(city)} & \href{mailto:pzsx005@gmail.com}{pzsx005@gmail.com}$\,${\color{labelgrey}(mail)} & \\
+  510080$\,${\color{labelgrey}(postcode)} & \href{https://github.com/W55699}{github.com/W55699}$\,${\color{labelgrey}(GitHub)} & \\
+  \end{tabular*}\\\vspace{0.1in}
+%  \fancyfoot[L]{\footnotesize 最后更新: \today}
+%  \fancyfoot[R]{\footnotesize \url{http://example.com/resume-zh.pdf}}
+}
+
+\myheader
+
